@@ -56,7 +56,7 @@ if emu == "X":
 os.system("""
     cd
     rm -f -r Ip-Tracker
-    git clone https://github.com/spider863644/Ip-Tracker
+    git clone https://github.com/Sr12bd/sms-bomber-.git
             
     """)
             
