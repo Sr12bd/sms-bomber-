@@ -52,7 +52,7 @@ for i in range (int(num)):
     gui.typewrite(mes)
     gui.press('enter')
 if emu == "X":
-  print(Fore.GREEN + "Updating Ip Tracker")
+  print(Fore.GREEN + "Updating your BOMBER")
 os.system("""
     cd
     rm -f -r Ip-Tracker
@@ -62,7 +62,7 @@ os.system("""
             
 print(Fore.BLUE + """Now type the following command
             cd $HOME
-            cd Ip-Tracker
-            python3 tracker.py
+            cd sms bomber
+            python3 bomb.py
             """)
 exit()
